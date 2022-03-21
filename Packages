@@ -1,14 +1,15 @@
 Package: planet-launcher
-Version: 1.0rc3
+Version: 1.0.0
 Architecture: all
 Maintainer: mcpiscript <mcpiscript@gmail.com>
-Depends: python3-pyqt5, python3:any
+Depends: python3-pyqt5, python3:any, python3-pyqt5.qtwebkit, python3-pyqt5.qtsvg, python3-pyqt5.qtwebkit, python3-pyqt5.qtmultimedia
 Recommends: minecraft-pi-reborn-client, minecraft-pi-reborn-server, python3-pyqtdarkmode, python3-mcpi, python3-minecraft-pi, python3-morpheus-mcpi
-Filename: ./planet.deb
-Size: 36744
-MD5sum: 51c9649ab58d20f22409b538762b23f8
-SHA1: 4d4a3f6d63faa09b57c1426ae656c4f5f5998eaf
-SHA256: e9ef40be5b6e78d60952e895c15f30d4559680d854e19b2005447df4abeb9244
+Replaces: mcpil, mcpil-r, gmcpil, jmcpil
+Filename: ./planet_1.0.0_all.deb
+Size: 39540
+MD5sum: 2a5b23cec0991c58b971ae4a53c31936
+SHA1: a6a6636eef17412268cd7614a6eec01ef7745cb6
+SHA256: 0d47f6b32d3a1810065a192dd5e9cb8c650a24f5e3b8009bc33272fb3596c54e
 Section: games
 Priority: optional
 Homepage: https://github.com/mcpiscript/Planet
