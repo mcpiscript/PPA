@@ -17,6 +17,6 @@ sudo apt update
 ```
 ## Uninstallation
 ```
-sudo rm -f /etc/apt/sources.list.d/mcpi-revival.list
+sudo rm -f /etc/apt/sources.list.d/mcpiscript.list
 sudo apt update
 ```
